@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "fastcampus-devops-terraform"
+    bucket = "-devops-terraform"
     key    = "s3-backend/terraform.tfstate"
     region = "ap-northeast-2"
   }
